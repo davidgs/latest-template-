@@ -37,8 +37,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 ## Application checklist
 
 <!-- checklist-progress:start -->
-> **Application progress:** **0 / 33** items complete (0%)
-> `░░░░░░░░░░░░░░░░░░░░` 0%
+> **Application progress:** **2 / 33** items complete (6%)  
+> `█░░░░░░░░░░░░░░░░░░░` 6%
 <!-- checklist-progress:end -->
 
 ### Read before proceeding
@@ -66,7 +66,7 @@ Based on the information in this form, a Contribution Agreement will be sent to 
 | Project description | ⬜ | #32 | [project_description](APPLICATION.md#project_description) |
 | Reusable project (not reference architecture) | ⬜ | #31 | [not_reference_architecture](APPLICATION.md#not_reference_architecture) |
 
-- [ ] Project summary and description drafted <!-- checklist:project-summary --> (#32)
+- [x] Project summary and description drafted <!-- checklist:project-summary --> (#32)
 - [ ] Confirmed this is a reusable open source project, not a reference architecture <!-- checklist:reusable-project --> (#31)
 
 ### Project details
