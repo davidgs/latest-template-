@@ -13,7 +13,7 @@ This is a template to complete an application to the CNCF Sanbox
 
 ## project_description
 
-_100–300 word description of what the project does, why it's needed, and what gaps it fills in the cloud native ecosystem._
+This is a template repository designed to reduce friction and increase the quality of applications to the CNCF Sandbox. If you use this repo, you can work through each issue with a separate PR. When you are done, you will have a complete record of completing each step, and who finished each item. 
 
 ## not_reference_architecture
 
