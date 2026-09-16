@@ -37,7 +37,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 ## Application checklist
 
 <!-- checklist-progress:start -->
-> **Application progress:** **0 / 33** items complete (0%)  
+> **Application progress:** **0 / 33** items complete (0%)
 > `░░░░░░░░░░░░░░░░░░░░` 0%
 <!-- checklist-progress:end -->
 
@@ -51,7 +51,7 @@ Thank you for applying to join the CNCF Sandbox. Please familiarize yourself wit
 - CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md) for dependencies (not core project code)
 - CNCF [minimal support and marketing expectations for Sandbox projects](https://contribute.cncf.io/resources/project-services/maturity-levels/#sandbox)
 
-- [ ] Reviewed all prerequisite documentation <!-- checklist:read-prerequisites --> (#33)
+- [x] Reviewed all prerequisite documentation <!-- checklist:read-prerequisites --> (#33)
 
 Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Technical Oversight Committee (TOC) can complete a vote on whether to accept the project.** It will be countersigned by the Linux Foundation only after a successful vote.
 
