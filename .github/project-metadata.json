@@ -1,0 +1,9 @@
+{
+  "project_name": "Test Sandbox Application",
+  "project_summary": "This is a template to complete an application to the CNCF Sanbox",
+  "org_repo_url": "https://github.com/davidgs/latest-template-",
+  "project_repo_url": "https://github.com/davidgs/latest-template-",
+  "website_url": "https://github.com/davidgs/latest-template-",
+  "repository": "davidgs/latest-template-",
+  "bootstrapped_at": "2026-09-16T17:21:00Z"
+}

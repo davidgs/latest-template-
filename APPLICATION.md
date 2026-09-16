@@ -9,8 +9,7 @@ Edit the content under each `## field_id` heading. Open pull requests against th
 ---
 
 ## project_summary
-
-_One-line summary of the project._
+This is a template to complete an application to the CNCF Sanbox
 
 ## project_description
 
@@ -21,12 +20,10 @@ _100–300 word description of what the project does, why it's needed, and what 
 - [ ] This is a reusable open source project designed for broad adoption, not a reference architecture, reference implementation, or demonstration of patterns
 
 ## org_repo_url
-
-_Org repo URL, or N/A._
+https://github.com/davidgs/latest-template-
 
 ## project_repo_url
-
-_Primary project repository URL._
+https://github.com/davidgs/latest-template-
 
 ## additional_repos
 
@@ -37,8 +34,7 @@ _Additional repository URLs in scope, or leave blank._
 _If separating from a parent project, link to the public maintainer vote issue. Otherwise write N/A._
 
 ## website_url
-
-_Project website URL, or primary repo URL if no website._
+https://github.com/davidgs/latest-template-
 
 ## roadmap
 

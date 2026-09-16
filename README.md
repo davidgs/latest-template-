@@ -1,10 +1,9 @@
-# CNCF Sandbox Application
-
-> **Project name:** _Replace with your project name_
+# Test Sandbox Application — CNCF Sandbox Application
+> **Project name:** Test Sandbox Application
 >
 > **Official CNCF application issue:** _Link after submission_
 >
-> **Checklist issues created:** Run `./scripts/bootstrap-issues.sh` after creating your repo from this template.
+> **Checklist issues:** Bootstrapped
 
 Prepare a comprehensive [CNCF Sandbox application](https://github.com/cncf/sandbox/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%5BSandbox%5D+%3CProject+Name%3E) before submitting to the TOC.
 
@@ -52,7 +51,7 @@ Thank you for applying to join the CNCF Sandbox. Please familiarize yourself wit
 - CNCF [Allowlist License Policy](https://github.com/cncf/foundation/blob/main/policies-guidance/allowed-third-party-license-policy.md) for dependencies (not core project code)
 - CNCF [minimal support and marketing expectations for Sandbox projects](https://contribute.cncf.io/resources/project-services/maturity-levels/#sandbox)
 
-- [ ] Reviewed all prerequisite documentation <!-- checklist:read-prerequisites --> (#ISSUE_READ_PREREQUISITES)
+- [ ] Reviewed all prerequisite documentation <!-- checklist:read-prerequisites --> (#33)
 
 Based on the information in this form, a Contribution Agreement will be sent to the contacts provided. **This must be signed before the Technical Oversight Committee (TOC) can complete a vote on whether to accept the project.** It will be countersigned by the Linux Foundation only after a successful vote.
 
@@ -63,42 +62,42 @@ Based on the information in this form, a Contribution Agreement will be sent to 
 
 | Field | Status | Issue | Answer field |
 | --- | --- | --- | --- |
-| Project summary | ⬜ | #ISSUE_PROJECT_SUMMARY | [project_summary](APPLICATION.md#project_summary) |
-| Project description | ⬜ | #ISSUE_PROJECT_SUMMARY | [project_description](APPLICATION.md#project_description) |
-| Reusable project (not reference architecture) | ⬜ | #ISSUE_REUSABLE_PROJECT | [not_reference_architecture](APPLICATION.md#not_reference_architecture) |
+| Project summary | ⬜ | #32 | [project_summary](APPLICATION.md#project_summary) |
+| Project description | ⬜ | #32 | [project_description](APPLICATION.md#project_description) |
+| Reusable project (not reference architecture) | ⬜ | #31 | [not_reference_architecture](APPLICATION.md#not_reference_architecture) |
 
-- [ ] Project summary and description drafted <!-- checklist:project-summary --> (#ISSUE_PROJECT_SUMMARY)
-- [ ] Confirmed this is a reusable open source project, not a reference architecture <!-- checklist:reusable-project --> (#ISSUE_REUSABLE_PROJECT)
+- [ ] Project summary and description drafted <!-- checklist:project-summary --> (#32)
+- [ ] Confirmed this is a reusable open source project, not a reference architecture <!-- checklist:reusable-project --> (#31)
 
 ### Project details
 
 | Field | Status | Issue | Answer field |
 | --- | --- | --- | --- |
-| Org repo URL | ⬜ | #ISSUE_ORG_AND_REPO_URLS | [org_repo_url](APPLICATION.md#org_repo_url) |
-| Project repo URL | ⬜ | #ISSUE_ORG_AND_REPO_URLS | [project_repo_url](APPLICATION.md#project_repo_url) |
-| Additional repos | ⬜ | #ISSUE_ORG_AND_REPO_URLS | [additional_repos](APPLICATION.md#additional_repos) |
-| Website URL | ⬜ | #ISSUE_WEBSITE_URL | [website_url](APPLICATION.md#website_url) |
-| Roadmap | ⬜ | #ISSUE_ROADMAP | [roadmap](APPLICATION.md#roadmap) |
-| Roadmap context | ⬜ | #ISSUE_ROADMAP | [roadmap_context](APPLICATION.md#roadmap_context) |
-| Contributing guide | ⬜ | #ISSUE_CONTRIBUTING_GUIDE | [contributing_guide](APPLICATION.md#contributing_guide) |
-| Code of Conduct | ⬜ | #ISSUE_CODE_OF_CONDUCT | [code_of_conduct](APPLICATION.md#code_of_conduct) |
-| Adopters | ⬜ | #ISSUE_ADOPTERS | [adopters](APPLICATION.md#adopters) |
-| Maintainers file | ⬜ | #ISSUE_MAINTAINERS_FILE | [maintainers_file](APPLICATION.md#maintainers_file) |
-| Security policy | ⬜ | #ISSUE_SECURITY_POLICY | [security_policy](APPLICATION.md#security_policy) |
-| Standard or specification | ⬜ | #ISSUE_STANDARD_OR_SPEC | [standard_or_spec](APPLICATION.md#standard_or_spec) |
-| Business product separation | ⬜ | #ISSUE_PRODUCT_SEPARATION | [product_separation](APPLICATION.md#product_separation) |
+| Org repo URL | ⬜ | #30 | [org_repo_url](APPLICATION.md#org_repo_url) |
+| Project repo URL | ⬜ | #30 | [project_repo_url](APPLICATION.md#project_repo_url) |
+| Additional repos | ⬜ | #30 | [additional_repos](APPLICATION.md#additional_repos) |
+| Website URL | ⬜ | #28 | [website_url](APPLICATION.md#website_url) |
+| Roadmap | ⬜ | #27 | [roadmap](APPLICATION.md#roadmap) |
+| Roadmap context | ⬜ | #27 | [roadmap_context](APPLICATION.md#roadmap_context) |
+| Contributing guide | ⬜ | #26 | [contributing_guide](APPLICATION.md#contributing_guide) |
+| Code of Conduct | ⬜ | #25 | [code_of_conduct](APPLICATION.md#code_of_conduct) |
+| Adopters | ⬜ | #24 | [adopters](APPLICATION.md#adopters) |
+| Maintainers file | ⬜ | #23 | [maintainers_file](APPLICATION.md#maintainers_file) |
+| Security policy | ⬜ | #22 | [security_policy](APPLICATION.md#security_policy) |
+| Standard or specification | ⬜ | #21 | [standard_or_spec](APPLICATION.md#standard_or_spec) |
+| Business product separation | ⬜ | #20 | [product_separation](APPLICATION.md#product_separation) |
 
-- [ ] Org and repository URLs documented <!-- checklist:org-and-repo-urls --> (#ISSUE_ORG_AND_REPO_URLS)
-- [ ] Parent project separation vote linked (or N/A documented) <!-- checklist:parent-separation-vote --> (#ISSUE_PARENT_SEPARATION_VOTE)
-- [ ] Website URL documented <!-- checklist:website-url --> (#ISSUE_WEBSITE_URL)
-- [ ] Roadmap and context documented <!-- checklist:roadmap --> (#ISSUE_ROADMAP)
-- [ ] Contributing guide linked <!-- checklist:contributing-guide --> (#ISSUE_CONTRIBUTING_GUIDE)
-- [ ] Code of Conduct linked <!-- checklist:code-of-conduct --> (#ISSUE_CODE_OF_CONDUCT)
-- [ ] Adopters list linked or rationale documented <!-- checklist:adopters --> (#ISSUE_ADOPTERS)
-- [ ] MAINTAINERS file created with required columns <!-- checklist:maintainers-file --> (#ISSUE_MAINTAINERS_FILE)
-- [ ] Security policy linked <!-- checklist:security-policy --> (#ISSUE_SECURITY_POLICY)
-- [ ] Standard/specification details documented <!-- checklist:standard-or-spec --> (#ISSUE_STANDARD_OR_SPEC)
-- [ ] Business product/service separation documented <!-- checklist:product-separation --> (#ISSUE_PRODUCT_SEPARATION)
+- [ ] Org and repository URLs documented <!-- checklist:org-and-repo-urls --> (#30)
+- [ ] Parent project separation vote linked (or N/A documented) <!-- checklist:parent-separation-vote --> (#29)
+- [ ] Website URL documented <!-- checklist:website-url --> (#28)
+- [ ] Roadmap and context documented <!-- checklist:roadmap --> (#27)
+- [ ] Contributing guide linked <!-- checklist:contributing-guide --> (#26)
+- [ ] Code of Conduct linked <!-- checklist:code-of-conduct --> (#25)
+- [ ] Adopters list linked or rationale documented <!-- checklist:adopters --> (#24)
+- [ ] MAINTAINERS file created with required columns <!-- checklist:maintainers-file --> (#23)
+- [ ] Security policy linked <!-- checklist:security-policy --> (#22)
+- [ ] Standard/specification details documented <!-- checklist:standard-or-spec --> (#21)
+- [ ] Business product/service separation documented <!-- checklist:product-separation --> (#20)
 
 > [!NOTE]
 > **Organization Diversity**
@@ -109,59 +108,59 @@ Based on the information in this form, a Contribution Agreement will be sent to 
 
 | Field | Status | Issue | Answer field |
 | --- | --- | --- | --- |
-| Why CNCF? | ⬜ | #ISSUE_WHY_CNCF | [why_cncf](APPLICATION.md#why_cncf) |
-| Benefit to the landscape | ⬜ | #ISSUE_LANDSCAPE_BENEFIT | [landscape_benefit](APPLICATION.md#landscape_benefit) |
-| Cloud native fit | ⬜ | #ISSUE_CLOUD_NATIVE_FIT | [cloud_native_fit](APPLICATION.md#cloud_native_fit) |
-| Cloud native integration | ⬜ | #ISSUE_CLOUD_NATIVE_INTEGRATION | [cloud_native_integration](APPLICATION.md#cloud_native_integration) |
-| Cloud native overlap | ⬜ | #ISSUE_CLOUD_NATIVE_OVERLAP | [cloud_native_overlap](APPLICATION.md#cloud_native_overlap) |
-| Similar projects | ⬜ | #ISSUE_SIMILAR_PROJECTS | [similar_projects](APPLICATION.md#similar_projects) |
-| Landscape listing | ⬜ | #ISSUE_LANDSCAPE_LISTING | [landscape](APPLICATION.md#landscape) |
-| LFX Insights | ⬜ | #ISSUE_LFX_INSIGHTS | [insights](APPLICATION.md#insights) |
+| Why CNCF? | ⬜ | #19 | [why_cncf](APPLICATION.md#why_cncf) |
+| Benefit to the landscape | ⬜ | #18 | [landscape_benefit](APPLICATION.md#landscape_benefit) |
+| Cloud native fit | ⬜ | #17 | [cloud_native_fit](APPLICATION.md#cloud_native_fit) |
+| Cloud native integration | ⬜ | #16 | [cloud_native_integration](APPLICATION.md#cloud_native_integration) |
+| Cloud native overlap | ⬜ | #15 | [cloud_native_overlap](APPLICATION.md#cloud_native_overlap) |
+| Similar projects | ⬜ | #14 | [similar_projects](APPLICATION.md#similar_projects) |
+| Landscape listing | ⬜ | #13 | [landscape](APPLICATION.md#landscape) |
+| LFX Insights | ⬜ | #12 | [insights](APPLICATION.md#insights) |
 
-- [ ] Why CNCF drafted <!-- checklist:why-cncf --> (#ISSUE_WHY_CNCF)
-- [ ] Landscape benefit drafted <!-- checklist:landscape-benefit --> (#ISSUE_LANDSCAPE_BENEFIT)
-- [ ] Cloud native fit drafted <!-- checklist:cloud-native-fit --> (#ISSUE_CLOUD_NATIVE_FIT)
-- [ ] Cloud native integration drafted <!-- checklist:cloud-native-integration --> (#ISSUE_CLOUD_NATIVE_INTEGRATION)
-- [ ] Cloud native overlap drafted <!-- checklist:cloud-native-overlap --> (#ISSUE_CLOUD_NATIVE_OVERLAP)
-- [ ] Similar projects documented <!-- checklist:similar-projects --> (#ISSUE_SIMILAR_PROJECTS)
-- [ ] Landscape listing status documented <!-- checklist:landscape-listing --> (#ISSUE_LANDSCAPE_LISTING)
-- [ ] LFX Insights status documented <!-- checklist:lfx-insights --> (#ISSUE_LFX_INSIGHTS)
+- [ ] Why CNCF drafted <!-- checklist:why-cncf --> (#19)
+- [ ] Landscape benefit drafted <!-- checklist:landscape-benefit --> (#18)
+- [ ] Cloud native fit drafted <!-- checklist:cloud-native-fit --> (#17)
+- [ ] Cloud native integration drafted <!-- checklist:cloud-native-integration --> (#16)
+- [ ] Cloud native overlap drafted <!-- checklist:cloud-native-overlap --> (#15)
+- [ ] Similar projects documented <!-- checklist:similar-projects --> (#14)
+- [ ] Landscape listing status documented <!-- checklist:landscape-listing --> (#13)
+- [ ] LFX Insights status documented <!-- checklist:lfx-insights --> (#12)
 
 ### CNCF policies
 
 | Field | Status | Issue | Answer field |
 | --- | --- | --- | --- |
-| Trademark and accounts | ⬜ | #ISSUE_TRADEMARK_AGREEMENT | [trademark_agreement](APPLICATION.md#trademark_agreement) |
-| IP policy | ⬜ | #ISSUE_IP_POLICY_AGREEMENT | [ip_policy_agreement](APPLICATION.md#ip_policy_agreement) |
-| License (Apache 2.0) | ⬜ | #ISSUE_APACHE_2_LICENSE | [license](APPLICATION.md#license) |
-| License exception | ⬜ | #ISSUE_LICENSE_EXCEPTION | [license_exception](APPLICATION.md#license_exception) |
-| Dependency licenses | ⬜ | #ISSUE_DEPENDENCY_LICENSES | [dependency_licenses](APPLICATION.md#dependency_licenses) |
-| Domain Technical Review | ⬜ | #ISSUE_DOMAIN_TECHNICAL_REVIEW | [domain_technical_review](APPLICATION.md#domain_technical_review) |
+| Trademark and accounts | ⬜ | #11 | [trademark_agreement](APPLICATION.md#trademark_agreement) |
+| IP policy | ⬜ | #10 | [ip_policy_agreement](APPLICATION.md#ip_policy_agreement) |
+| License (Apache 2.0) | ⬜ | #6 | [license](APPLICATION.md#license) |
+| License exception | ⬜ | #9 | [license_exception](APPLICATION.md#license_exception) |
+| Dependency licenses | ⬜ | #8 | [dependency_licenses](APPLICATION.md#dependency_licenses) |
+| Domain Technical Review | ⬜ | #7 | [domain_technical_review](APPLICATION.md#domain_technical_review) |
 
-- [ ] Trademark and accounts agreement confirmed <!-- checklist:trademark-agreement --> (#ISSUE_TRADEMARK_AGREEMENT)
-- [ ] CNCF IP policy agreement confirmed <!-- checklist:ip-policy-agreement --> (#ISSUE_IP_POLICY_AGREEMENT)
-- [ ] License exception review completed <!-- checklist:license-exception --> (#ISSUE_LICENSE_EXCEPTION)
-- [ ] Dependency license compliance verified <!-- checklist:dependency-licenses --> (#ISSUE_DEPENDENCY_LICENSES)
-- [ ] Domain Technical Review linked (if applicable) <!-- checklist:domain-technical-review --> (#ISSUE_DOMAIN_TECHNICAL_REVIEW)
+- [ ] Trademark and accounts agreement confirmed <!-- checklist:trademark-agreement --> (#11)
+- [ ] CNCF IP policy agreement confirmed <!-- checklist:ip-policy-agreement --> (#10)
+- [ ] License exception review completed <!-- checklist:license-exception --> (#9)
+- [ ] Dependency license compliance verified <!-- checklist:dependency-licenses --> (#8)
+- [ ] Domain Technical Review linked (if applicable) <!-- checklist:domain-technical-review --> (#7)
 
 ### Pre-submission checklist
 
 #### Critical requirements (application will be closed if any are missing)
 
-- [ ] Project uses the **Apache 2.0** license <!-- checklist:apache-2-license --> (#ISSUE_APACHE_2_LICENSE)
-- [ ] **MAINTAINERS file** exists with Name, GitHub ID, and **Company/Organization** columns <!-- checklist:maintainers-file --> (#ISSUE_MAINTAINERS_FILE)
-- [ ] Direct link to MAINTAINERS file provided (not contributors graph, not "N/A") <!-- checklist:maintainers-file --> (#ISSUE_MAINTAINERS_FILE)
-- [ ] Repository is **6+ months old** with active development <!-- checklist:repo-age-and-activity --> (#ISSUE_REPO_AGE_AND_ACTIVITY)
-- [ ] If separating from a parent project: public vote issue from parent project maintainers linked <!-- checklist:parent-separation-vote --> (#ISSUE_PARENT_SEPARATION_VOTE)
-- [ ] Project is **reusable**, not a reference architecture, reference implementation, or company-specific platform <!-- checklist:reusable-project --> (#ISSUE_REUSABLE_PROJECT)
+- [ ] Project uses the **Apache 2.0** license <!-- checklist:apache-2-license --> (#6)
+- [ ] **MAINTAINERS file** exists with Name, GitHub ID, and **Company/Organization** columns <!-- checklist:maintainers-file --> (#23)
+- [ ] Direct link to MAINTAINERS file provided (not contributors graph, not "N/A") <!-- checklist:maintainers-file --> (#23)
+- [ ] Repository is **6+ months old** with active development <!-- checklist:repo-age-and-activity --> (#5)
+- [ ] If separating from a parent project: public vote issue from parent project maintainers linked <!-- checklist:parent-separation-vote --> (#29)
+- [ ] Project is **reusable**, not a reference architecture, reference implementation, or company-specific platform <!-- checklist:reusable-project --> (#31)
 
 #### Recommended (improves review experience)
 
-- [ ] Code of Conduct, Contributing guide, Security policy properly documented <!-- checklist:code-of-conduct --> (#ISSUE_CODE_OF_CONDUCT) <!-- checklist:contributing-guide --> (#ISSUE_CONTRIBUTING_GUIDE) <!-- checklist:security-policy --> (#ISSUE_SECURITY_POLICY)
-- [ ] Adopters list with production users <!-- checklist:adopters --> (#ISSUE_ADOPTERS)
-- [ ] Roadmap shows future direction and is publicly accessible <!-- checklist:roadmap --> (#ISSUE_ROADMAP)
-- [ ] Similar projects section addresses overlap and differentiation <!-- checklist:similar-projects --> (#ISSUE_SIMILAR_PROJECTS)
-- [ ] Maintainers from multiple organizations (employers, not GitHub orgs) <!-- checklist:maintainer-diversity --> (#ISSUE_MAINTAINER_DIVERSITY)
+- [ ] Code of Conduct, Contributing guide, Security policy properly documented <!-- checklist:code-of-conduct --> (#25) <!-- checklist:contributing-guide --> (#26) <!-- checklist:security-policy --> (#22)
+- [ ] Adopters list with production users <!-- checklist:adopters --> (#24)
+- [ ] Roadmap shows future direction and is publicly accessible <!-- checklist:roadmap --> (#27)
+- [ ] Similar projects section addresses overlap and differentiation <!-- checklist:similar-projects --> (#14)
+- [ ] Maintainers from multiple organizations (employers, not GitHub orgs) <!-- checklist:maintainer-diversity --> (#4)
 
 **Common mistakes that result in auto-closure:**
 
@@ -171,20 +170,20 @@ Based on the information in this form, a Contribution Agreement will be sent to 
 - Saying "will add [required file] after acceptance"
 - Reference architecture or reference implementation submitted as a project
 
-- [ ] Repository age and active development verified <!-- checklist:repo-age-and-activity --> (#ISSUE_REPO_AGE_AND_ACTIVITY)
-- [ ] Maintainer organization diversity documented <!-- checklist:maintainer-diversity --> (#ISSUE_MAINTAINER_DIVERSITY)
+- [ ] Repository age and active development verified <!-- checklist:repo-age-and-activity --> (#5)
+- [ ] Maintainer organization diversity documented <!-- checklist:maintainer-diversity --> (#4)
 
 See [repo_age_evidence](APPLICATION.md#repo_age_evidence) and [maintainer_diversity](APPLICATION.md#maintainer_diversity).
 
 ### Contact information
 
-- [ ] Application contact emails and signatory information completed <!-- checklist:contact-information --> (#ISSUE_CONTACT_INFORMATION)
+- [ ] Application contact emails and signatory information completed <!-- checklist:contact-information --> (#3)
 
 See [application_contact_emails](APPLICATION.md#application_contact_emails) and [signatory_information](APPLICATION.md#signatory_information).
 
 ### Additional information
 
-- [ ] CNCF contacts and additional information completed <!-- checklist:additional-information --> (#ISSUE_ADDITIONAL_INFORMATION)
+- [ ] CNCF contacts and additional information completed <!-- checklist:additional-information --> (#2)
 
 See [cncf_contacts](APPLICATION.md#cncf_contacts) and [additional_information](APPLICATION.md#additional_information).
 
@@ -196,7 +195,7 @@ When all checklist items above are complete:
 2. Submit via `./scripts/generate-submission.sh --create-issue --project-name "YourProject"`, or copy [CNCF-SUBMISSION.md](CNCF-SUBMISSION.md) into a [new CNCF sandbox issue](https://github.com/cncf/sandbox/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%5BSandbox%5D+%3CProject+Name%3E).
 3. Link the submitted CNCF issue at the top of this README.
 
-- [ ] Final review complete and application submitted to CNCF <!-- checklist:final-review --> (#ISSUE_FINAL_REVIEW)
+- [ ] Final review complete and application submitted to CNCF <!-- checklist:final-review --> (#1)
 
 ---
 
