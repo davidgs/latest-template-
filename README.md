@@ -37,8 +37,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 ## Application checklist
 
 <!-- checklist-progress:start -->
-> **Application progress:** **0 / 33** items complete (0%)
-> `░░░░░░░░░░░░░░░░░░░░` 0%
+> **Application progress:** **1 / 33** items complete (3%)  
+> `█░░░░░░░░░░░░░░░░░░░` 3%
 <!-- checklist-progress:end -->
 
 ### Read before proceeding
